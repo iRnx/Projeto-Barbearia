@@ -342,6 +342,14 @@ td, th {
         padding: -13px;
         margin: -13px;
     }
+    
+    nav a:hover {
+        color: #C78C19;
+        background: none;
+        font-size: none;
+        padding: 0;
+        
+    }
 
     .lista-beneficios, .imagem-beneficios {
         width: 100%;
@@ -360,6 +368,14 @@ td, th {
 
     nav {
         position: static;
+    }
+    
+    nav a:hover {
+        color: #C78C19;
+        background: none;
+        font-size: none;
+        padding: 0;
+        
     }
 
     .lista-beneficios, .imagem-beneficios {
@@ -386,6 +402,14 @@ td, th {
 
     nav li {
         padding: 10px;
+    }
+    
+    nav a:hover {
+        color: #C78C19;
+        background: none;
+        font-size: none;
+        padding: 0;
+        
     }
 
     .lista-beneficios, .imagem-beneficios {
