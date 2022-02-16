@@ -8,6 +8,6 @@ $("input[autocomplete='off']").each(function () {
 
     setTimeout(function () {
         input.attr("name", name).attr("id", id);
-    }, 1);
+    }, 6);
 
 });
