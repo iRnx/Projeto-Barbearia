@@ -32,6 +32,12 @@
 
     <main>
         <form action="" method="" autocomplete="off">
+            <input type="text" id="matricula" placeholder="Matrícula" name="mat" required
+            autofocus autocomplete="off" readonly onfocus="this.removeAttribute('readonly');this.select();" />
+
+            <input type="password" id="senha" placeholder="Senha" name="pass" required
+            autocomplete="off" readonly onfocus="this.removeAttribute('readonly');this.select();" />
+            
             <label for="nomesobrenome">Nome e Sobrenome</label>
             <input name="name" type="text" id="nomesobrenome" class="input-padrao username" placeholder="seunome" autocomplete="off" required>
             
